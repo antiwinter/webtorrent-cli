@@ -17,7 +17,7 @@ var parseTorrent = require('parse-torrent')
 var path = require('path')
 var prettierBytes = require('prettier-bytes')
 var vlcCommand = require('vlc-command')
-var WebTorrent = require('webtorrent')
+var WebTorrent = require('webtorrent-hybrid')
 var MemoryChunkStore = require('memory-chunk-store')
 
 process.title = 'WebTorrent'
